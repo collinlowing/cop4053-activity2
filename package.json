@@ -1,0 +1,26 @@
+{
+  "name": "activity-2-cel19",
+  "version": "1.0.0",
+  "description": "## Purpose The purpose of this lab is to get hands-on experience with communicating between different NodeJS services.",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node service1.js && node service2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cen4053-fall2021/activity-2-cel19.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cen4053-fall2021/activity-2-cel19/issues"
+  },
+  "homepage": "https://github.com/cen4053-fall2021/activity-2-cel19#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "basic-auth": "^2.0.1",
+    "express": "^4.17.1"
+  }
+}
